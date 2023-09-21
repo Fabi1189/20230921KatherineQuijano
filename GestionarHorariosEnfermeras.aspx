@@ -15,7 +15,7 @@
                         <h3 class="box-title">Datos de la Enfermera</h3>
                     </div>
                     <div class="box-body">
-                        <label>DNI</label>
+                        <label>DUI</label>
                         <div class="input-group">
                             <asp:TextBox ID="txtDNI" runat="server" CssClass="form-control" MaxLength="8"></asp:TextBox>
                             <span class="input-group-btn">

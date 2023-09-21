@@ -258,7 +258,6 @@
     <Content Include="img\bootstrap-colorpicker\hue-horizontal.png" />
     <Content Include="img\bootstrap-colorpicker\hue.png" />
     <Content Include="img\bootstrap-colorpicker\saturation.png" />
-    <Content Include="img\Captura de pantalla %28109%29.png" />
     <Content Include="img\clinica_318-1538.jpg" />
     <Content Include="img\credit\american-express.png" />
     <Content Include="img\credit\cirrus.png" />
@@ -278,7 +277,6 @@
     <Content Include="img\sprite-skin-nice.png" />
     <Content Include="img\user-bg.png" />
     <Content Include="img\user.jpg" />
-    <Content Include="img\user2.jpg" />
     <Content Include="img\usuario.jpg" />
     <Content Include="jAlert\images\error-icon.png" />
     <Content Include="jAlert\images\help.gif" />

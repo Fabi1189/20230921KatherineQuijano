@@ -25,7 +25,7 @@ namespace CapaAccesoDatos
         public SqlConnection ConexionBD()
         {
             SqlConnection conexion = new SqlConnection();
-            conexion.ConnectionString = "Data Source=DESKTOP-9MFUSLH\\SQLEXPRESS; Initial Catalog=DbPruebas; Integrated security=true";
+            conexion.ConnectionString = "Data Source=DESKTOP-9MFUSLH\\SQLEXPRESS; Initial Catalog=ClinicaPrueba; Integrated security=true";
             conexion.Open();
             conexion.Close();
             return conexion;

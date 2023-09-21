@@ -23,7 +23,7 @@ function searchPacienteDni(dni) {
         },
         success: function (data) {
             if (data.d == null) {
-                alert('No exite el paciente con dni ' + dni);
+                alert('No exite el paciente con dui ' + dni);
                 limpiarDatosPaciente();
             } else {
                 llenarDatosPaciente(data.d);

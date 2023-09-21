@@ -22,7 +22,7 @@
                         <div class="col-md-3">
                             <div class="form-group">
                                 <asp:DropDownList ID="ddlBuscar" runat="server" CssClass="form-control">
-                                    <asp:ListItem>DNI</asp:ListItem>
+                                    <asp:ListItem>DUI</asp:ListItem>
                                     <asp:ListItem>Fecha</asp:ListItem>
                                     <asp:ListItem>Especialidad</asp:ListItem>
                                 </asp:DropDownList>
@@ -61,7 +61,7 @@
                             <asp:HiddenField ID="hdIdCita" runat="server" Value='<%#Eval("IdCita") %>' Visible="false" />
                             <strong>&nbsp;&nbsp;Nombres y Apellidos:&nbsp;&nbsp;&nbsp;&nbsp;</strong>
                             <asp:Label ID="lblNombres" runat="server" Text='<%#Eval("Paciente.Nombres")+" "+Eval("Paciente.ApPaterno")+" "+Eval("Paciente.ApMaterno") %>' Font-Size="Medium"></asp:Label><br />
-                            <strong>&nbsp;&nbsp;DNI:&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                            <strong>&nbsp;&nbsp;DuI:&nbsp;&nbsp;&nbsp;&nbsp;</strong>
                             <asp:Label ID="lblDNI" runat="server" Text='<%#Eval("Paciente.nroDocumento") %>' Font-Size="Medium"></asp:Label><br />
                             <strong>&nbsp;&nbsp;Fecha:&nbsp;&nbsp;&nbsp;&nbsp;</strong>
                             <asp:Label ID="lblFecha" runat="server" Text='<%#Eval("fechaReserva","{0:dd/MM/yyyy}") %>' Font-Size="Medium"></asp:Label><br />

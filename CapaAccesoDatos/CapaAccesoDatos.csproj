@@ -42,10 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CitaDAO.cs" />
-    <Compile Include="DbPruebasDataSet.Designer.cs">
+    <Compile Include="ClinicaPruebaDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DbPruebasDataSet.xsd</DependentUpon>
+      <DependentUpon>ClinicaPruebaDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="DiagnosticoDAO.cs" />
     <Compile Include="EmpleadoDAO.cs" />
@@ -77,16 +77,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="DbPruebasDataSet.xsc">
-      <DependentUpon>DbPruebasDataSet.xsd</DependentUpon>
+    <None Include="ClinicaPruebaDataSet.xsc">
+      <DependentUpon>ClinicaPruebaDataSet.xsd</DependentUpon>
     </None>
-    <None Include="DbPruebasDataSet.xsd">
+    <None Include="ClinicaPruebaDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DbPruebasDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>ClinicaPruebaDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DbPruebasDataSet.xss">
-      <DependentUpon>DbPruebasDataSet.xsd</DependentUpon>
+    <None Include="ClinicaPruebaDataSet.xss">
+      <DependentUpon>ClinicaPruebaDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

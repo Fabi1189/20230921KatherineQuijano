@@ -18,7 +18,7 @@
                         </div>
                         <div class="form-group">
                             <asp:TextBox ID="txtNroDocumento" runat="server" Text="" MaxLength="8" CssClass="form-control formulario__input"></asp:TextBox>
-                            <asp:RegularExpressionValidator ID="evDNI" runat="server" ErrorMessage="El DNI solo debe contener 8 digitos y deben ser números" ControlToValidate="txtNroDocumento" ForeColor="#FF3300" ValidationExpression="[0-9]{8}" ValidationGroup="DatosRequeridos"></asp:RegularExpressionValidator>
+                            <asp:RegularExpressionValidator ID="evDNI" runat="server" ErrorMessage="El DUI solo debe contener 8 digitos y deben ser números" ControlToValidate="txtNroDocumento" ForeColor="#FF3300" ValidationExpression="[0-9]{8}" ValidationGroup="DatosRequeridos"></asp:RegularExpressionValidator>
                         </div>
                         <div class="form-group">
                             <label for="txtNombres" class="formulario__label">NOMBRES</label>

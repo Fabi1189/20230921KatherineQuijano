@@ -55,7 +55,7 @@ $("#btnBuscar").on("click", function (event) {
             }
         });
     } else {
-        alert('No ha ingresado un DNI');
+        alert('No ha ingresado un DUI');
         llenarDatosDefault();
         tabla.fnClearTable();
     }
@@ -73,7 +73,7 @@ function llenarDatosEnfermera(obj) {
 
 //Funcion para Limpiar los datos
 function llenarDatosDefault() {
-    alert("No existe una enfermera con DNI " + $("#txtDNI").val());
+    alert("No existe una enfermera con DUI " + $("#txtDNI").val());
     $("#lblNombres").text("");
     $("#lblApellidos").text("");
     $("#lblTipo").text("");

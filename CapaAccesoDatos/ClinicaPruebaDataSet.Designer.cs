@@ -20,9 +20,9 @@ namespace CapaAccesoDatos {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("DbPruebasDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("ClinicaPruebaDataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class DbPruebasDataSet : global::System.Data.DataSet {
+    public partial class ClinicaPruebaDataSet : global::System.Data.DataSet {
         
         private CitaDataTable tableCita;
         
@@ -142,7 +142,7 @@ namespace CapaAccesoDatos {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public DbPruebasDataSet() {
+        public ClinicaPruebaDataSet() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -153,7 +153,7 @@ namespace CapaAccesoDatos {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected DbPruebasDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected ClinicaPruebaDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -759,7 +759,7 @@ namespace CapaAccesoDatos {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            DbPruebasDataSet cln = ((DbPruebasDataSet)(base.Clone()));
+            ClinicaPruebaDataSet cln = ((ClinicaPruebaDataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -1207,9 +1207,9 @@ namespace CapaAccesoDatos {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "DbPruebasDataSet";
+            this.DataSetName = "ClinicaPruebaDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/DbPruebasDataSet.xsd";
+            this.Namespace = "http://tempuri.org/ClinicaPruebaDataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableCita = new CitaDataTable();
@@ -1617,7 +1617,7 @@ namespace CapaAccesoDatos {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            DbPruebasDataSet ds = new DbPruebasDataSet();
+            ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -2082,7 +2082,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2420,7 +2420,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2697,7 +2697,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3096,7 +3096,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3406,7 +3406,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3697,7 +3697,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4004,7 +4004,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4281,7 +4281,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4638,7 +4638,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4979,7 +4979,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -5291,7 +5291,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -5655,7 +5655,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6065,7 +6065,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6360,7 +6360,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6651,7 +6651,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -7007,7 +7007,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -7357,7 +7357,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -7742,7 +7742,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -8092,7 +8092,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -8445,7 +8445,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -8816,7 +8816,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -9165,7 +9165,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -9499,7 +9499,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -9795,7 +9795,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -10103,7 +10103,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -10367,7 +10367,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -10805,7 +10805,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -11243,7 +11243,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -11681,7 +11681,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -12119,7 +12119,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -12455,7 +12455,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -12730,7 +12730,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -13103,7 +13103,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -13431,7 +13431,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -13766,7 +13766,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -14116,7 +14116,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -14480,7 +14480,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -14847,7 +14847,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -15211,7 +15211,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -15532,7 +15532,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -15836,7 +15836,7 @@ namespace CapaAccesoDatos {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DbPruebasDataSet ds = new DbPruebasDataSet();
+                ClinicaPruebaDataSet ds = new ClinicaPruebaDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -24275,7 +24275,7 @@ namespace CapaAccesoDatos {
         }
     }
 }
-namespace CapaAccesoDatos.DbPruebasDataSetTableAdapters {
+namespace CapaAccesoDatos.ClinicaPruebaDataSetTableAdapters {
     
     
     /// <summary>
@@ -24462,7 +24462,7 @@ SELECT idCita, idMedico, idPaciente, fechaReserva, observacion, estado, hora FRO
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -24480,7 +24480,7 @@ SELECT idCita, idMedico, idPaciente, fechaReserva, observacion, estado, hora FRO
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.CitaDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.CitaDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -24493,9 +24493,9 @@ SELECT idCita, idMedico, idPaciente, fechaReserva, observacion, estado, hora FRO
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.CitaDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.CitaDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.CitaDataTable dataTable = new DbPruebasDataSet.CitaDataTable();
+            ClinicaPruebaDataSet.CitaDataTable dataTable = new ClinicaPruebaDataSet.CitaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -24503,14 +24503,14 @@ SELECT idCita, idMedico, idPaciente, fechaReserva, observacion, estado, hora FRO
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.CitaDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.CitaDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Cita");
         }
         
@@ -24903,7 +24903,7 @@ SELECT idDiagnostico, idHistoriaClinica, fechaEmision, observacion, estado, rece
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -24921,7 +24921,7 @@ SELECT idDiagnostico, idHistoriaClinica, fechaEmision, observacion, estado, rece
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.DiagnosticoDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.DiagnosticoDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -24934,9 +24934,9 @@ SELECT idDiagnostico, idHistoriaClinica, fechaEmision, observacion, estado, rece
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.DiagnosticoDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.DiagnosticoDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.DiagnosticoDataTable dataTable = new DbPruebasDataSet.DiagnosticoDataTable();
+            ClinicaPruebaDataSet.DiagnosticoDataTable dataTable = new ClinicaPruebaDataSet.DiagnosticoDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -24944,14 +24944,14 @@ SELECT idDiagnostico, idHistoriaClinica, fechaEmision, observacion, estado, rece
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.DiagnosticoDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.DiagnosticoDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Diagnostico");
         }
         
@@ -25317,7 +25317,7 @@ SELECT idDiaSemana, nombreDiaSemana FROM DiaSemana WHERE (idDiaSemana = @idDiaSe
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -25334,7 +25334,7 @@ SELECT idDiaSemana, nombreDiaSemana FROM DiaSemana WHERE (idDiaSemana = @idDiaSe
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.DiaSemanaDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.DiaSemanaDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -25347,9 +25347,9 @@ SELECT idDiaSemana, nombreDiaSemana FROM DiaSemana WHERE (idDiaSemana = @idDiaSe
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.DiaSemanaDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.DiaSemanaDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.DiaSemanaDataTable dataTable = new DbPruebasDataSet.DiaSemanaDataTable();
+            ClinicaPruebaDataSet.DiaSemanaDataTable dataTable = new ClinicaPruebaDataSet.DiaSemanaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -25357,14 +25357,14 @@ SELECT idDiaSemana, nombreDiaSemana FROM DiaSemana WHERE (idDiaSemana = @idDiaSe
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.DiaSemanaDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.DiaSemanaDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "DiaSemana");
         }
         
@@ -25693,7 +25693,7 @@ SELECT idEmpleado, idTipoEmpleado, nombres, apPaterno, apMaterno, nroDocumento, 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -25711,7 +25711,7 @@ SELECT idEmpleado, idTipoEmpleado, nombres, apPaterno, apMaterno, nroDocumento, 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.EmpleadoDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.EmpleadoDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -25724,9 +25724,9 @@ SELECT idEmpleado, idTipoEmpleado, nombres, apPaterno, apMaterno, nroDocumento, 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.EmpleadoDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.EmpleadoDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.EmpleadoDataTable dataTable = new DbPruebasDataSet.EmpleadoDataTable();
+            ClinicaPruebaDataSet.EmpleadoDataTable dataTable = new ClinicaPruebaDataSet.EmpleadoDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -25734,14 +25734,14 @@ SELECT idEmpleado, idTipoEmpleado, nombres, apPaterno, apMaterno, nroDocumento, 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.EmpleadoDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.EmpleadoDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Empleado");
         }
         
@@ -26269,7 +26269,7 @@ SELECT idEnfermera, idEmpleado, tipoEnfermera, estado FROM Enfermera WHERE (idEn
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -26286,7 +26286,7 @@ SELECT idEnfermera, idEmpleado, tipoEnfermera, estado FROM Enfermera WHERE (idEn
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.EnfermeraDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.EnfermeraDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -26299,9 +26299,9 @@ SELECT idEnfermera, idEmpleado, tipoEnfermera, estado FROM Enfermera WHERE (idEn
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.EnfermeraDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.EnfermeraDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.EnfermeraDataTable dataTable = new DbPruebasDataSet.EnfermeraDataTable();
+            ClinicaPruebaDataSet.EnfermeraDataTable dataTable = new ClinicaPruebaDataSet.EnfermeraDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -26309,14 +26309,14 @@ SELECT idEnfermera, idEmpleado, tipoEnfermera, estado FROM Enfermera WHERE (idEn
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.EnfermeraDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.EnfermeraDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Enfermera");
         }
         
@@ -26627,7 +26627,7 @@ SELECT idEspecialidad, descripcion, estado FROM Especialidad WHERE (idEspecialid
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -26644,7 +26644,7 @@ SELECT idEspecialidad, descripcion, estado FROM Especialidad WHERE (idEspecialid
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.EspecialidadDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.EspecialidadDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -26657,9 +26657,9 @@ SELECT idEspecialidad, descripcion, estado FROM Especialidad WHERE (idEspecialid
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.EspecialidadDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.EspecialidadDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.EspecialidadDataTable dataTable = new DbPruebasDataSet.EspecialidadDataTable();
+            ClinicaPruebaDataSet.EspecialidadDataTable dataTable = new ClinicaPruebaDataSet.EspecialidadDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -26667,14 +26667,14 @@ SELECT idEspecialidad, descripcion, estado FROM Especialidad WHERE (idEspecialid
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.EspecialidadDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.EspecialidadDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Especialidad");
         }
         
@@ -26993,7 +26993,7 @@ SELECT idHistoriaClinica, idPaciente, fechaApertura, estado FROM HistoriaClinica
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -27011,7 +27011,7 @@ SELECT idHistoriaClinica, idPaciente, fechaApertura, estado FROM HistoriaClinica
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.HistoriaClinicaDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.HistoriaClinicaDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -27024,9 +27024,9 @@ SELECT idHistoriaClinica, idPaciente, fechaApertura, estado FROM HistoriaClinica
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.HistoriaClinicaDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.HistoriaClinicaDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.HistoriaClinicaDataTable dataTable = new DbPruebasDataSet.HistoriaClinicaDataTable();
+            ClinicaPruebaDataSet.HistoriaClinicaDataTable dataTable = new ClinicaPruebaDataSet.HistoriaClinicaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -27034,14 +27034,14 @@ SELECT idHistoriaClinica, idPaciente, fechaApertura, estado FROM HistoriaClinica
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.HistoriaClinicaDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.HistoriaClinicaDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "HistoriaClinica");
         }
         
@@ -27374,7 +27374,7 @@ SELECT idHistoriaClinica, idPaciente, fechaApertura, estado FROM HistoriaClinica
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -27391,7 +27391,7 @@ SELECT idHistoriaClinica, idPaciente, fechaApertura, estado FROM HistoriaClinica
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.HoraDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.HoraDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -27404,9 +27404,9 @@ SELECT idHistoriaClinica, idPaciente, fechaApertura, estado FROM HistoriaClinica
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.HoraDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.HoraDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.HoraDataTable dataTable = new DbPruebasDataSet.HoraDataTable();
+            ClinicaPruebaDataSet.HoraDataTable dataTable = new ClinicaPruebaDataSet.HoraDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -27414,14 +27414,14 @@ SELECT idHistoriaClinica, idPaciente, fechaApertura, estado FROM HistoriaClinica
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.HoraDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.HoraDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Hora");
         }
         
@@ -27727,7 +27727,7 @@ SELECT idHorarioAtencion, idMedico, idHoraInicio, fecha, fechaFin, estado, idDia
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -27745,7 +27745,7 @@ SELECT idHorarioAtencion, idMedico, idHoraInicio, fecha, fechaFin, estado, idDia
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.HorarioAtencionDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.HorarioAtencionDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -27758,9 +27758,9 @@ SELECT idHorarioAtencion, idMedico, idHoraInicio, fecha, fechaFin, estado, idDia
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.HorarioAtencionDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.HorarioAtencionDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.HorarioAtencionDataTable dataTable = new DbPruebasDataSet.HorarioAtencionDataTable();
+            ClinicaPruebaDataSet.HorarioAtencionDataTable dataTable = new ClinicaPruebaDataSet.HorarioAtencionDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -27768,14 +27768,14 @@ SELECT idHorarioAtencion, idMedico, idHoraInicio, fecha, fechaFin, estado, idDia
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.HorarioAtencionDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.HorarioAtencionDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "HorarioAtencion");
         }
         
@@ -28166,7 +28166,7 @@ SELECT idHorarioAtencionEnfermera, idEnfermera, Turno, fecha, idDiaSemana, estad
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -28184,7 +28184,7 @@ SELECT idHorarioAtencionEnfermera, idEnfermera, Turno, fecha, idDiaSemana, estad
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.HorarioAtencionEnfermeraDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.HorarioAtencionEnfermeraDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -28197,9 +28197,9 @@ SELECT idHorarioAtencionEnfermera, idEnfermera, Turno, fecha, idDiaSemana, estad
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.HorarioAtencionEnfermeraDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.HorarioAtencionEnfermeraDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.HorarioAtencionEnfermeraDataTable dataTable = new DbPruebasDataSet.HorarioAtencionEnfermeraDataTable();
+            ClinicaPruebaDataSet.HorarioAtencionEnfermeraDataTable dataTable = new ClinicaPruebaDataSet.HorarioAtencionEnfermeraDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -28207,14 +28207,14 @@ SELECT idHorarioAtencionEnfermera, idEnfermera, Turno, fecha, idDiaSemana, estad
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.HorarioAtencionEnfermeraDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.HorarioAtencionEnfermeraDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "HorarioAtencionEnfermera");
         }
         
@@ -28587,7 +28587,7 @@ SELECT idMedico, idEmpleado, idEspecialidad, estado FROM Medico WHERE (idMedico 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -28604,7 +28604,7 @@ SELECT idMedico, idEmpleado, idEspecialidad, estado FROM Medico WHERE (idMedico 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.MedicoDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.MedicoDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -28617,9 +28617,9 @@ SELECT idMedico, idEmpleado, idEspecialidad, estado FROM Medico WHERE (idMedico 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.MedicoDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.MedicoDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.MedicoDataTable dataTable = new DbPruebasDataSet.MedicoDataTable();
+            ClinicaPruebaDataSet.MedicoDataTable dataTable = new ClinicaPruebaDataSet.MedicoDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -28627,14 +28627,14 @@ SELECT idMedico, idEmpleado, idEspecialidad, estado FROM Medico WHERE (idMedico 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.MedicoDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.MedicoDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Medico");
         }
         
@@ -28955,7 +28955,7 @@ SELECT idMenu, nombre, isSubmenu, url, idMenuParent, estado, show, orden FROM Me
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -28973,7 +28973,7 @@ SELECT idMenu, nombre, isSubmenu, url, idMenuParent, estado, show, orden FROM Me
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.MenuDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.MenuDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -28986,9 +28986,9 @@ SELECT idMenu, nombre, isSubmenu, url, idMenuParent, estado, show, orden FROM Me
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.MenuDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.MenuDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.MenuDataTable dataTable = new DbPruebasDataSet.MenuDataTable();
+            ClinicaPruebaDataSet.MenuDataTable dataTable = new ClinicaPruebaDataSet.MenuDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -28996,14 +28996,14 @@ SELECT idMenu, nombre, isSubmenu, url, idMenuParent, estado, show, orden FROM Me
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.MenuDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.MenuDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Menu");
         }
         
@@ -29497,7 +29497,7 @@ SELECT idPaciente, nombres, apPaterno, apMaterno, edad, sexo, nroDocumento, dire
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -29515,7 +29515,7 @@ SELECT idPaciente, nombres, apPaterno, apMaterno, edad, sexo, nroDocumento, dire
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.PacienteDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.PacienteDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -29528,9 +29528,9 @@ SELECT idPaciente, nombres, apPaterno, apMaterno, edad, sexo, nroDocumento, dire
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.PacienteDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.PacienteDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.PacienteDataTable dataTable = new DbPruebasDataSet.PacienteDataTable();
+            ClinicaPruebaDataSet.PacienteDataTable dataTable = new ClinicaPruebaDataSet.PacienteDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -29538,14 +29538,14 @@ SELECT idPaciente, nombres, apPaterno, apMaterno, edad, sexo, nroDocumento, dire
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.PacienteDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.PacienteDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Paciente");
         }
         
@@ -30121,7 +30121,7 @@ SELECT idEmpleado, idMenu, estado FROM Permisos WHERE (idEmpleado = @idEmpleado)
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -30138,7 +30138,7 @@ SELECT idEmpleado, idMenu, estado FROM Permisos WHERE (idEmpleado = @idEmpleado)
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.PermisosDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.PermisosDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -30151,9 +30151,9 @@ SELECT idEmpleado, idMenu, estado FROM Permisos WHERE (idEmpleado = @idEmpleado)
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.PermisosDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.PermisosDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.PermisosDataTable dataTable = new DbPruebasDataSet.PermisosDataTable();
+            ClinicaPruebaDataSet.PermisosDataTable dataTable = new ClinicaPruebaDataSet.PermisosDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -30161,14 +30161,14 @@ SELECT idEmpleado, idMenu, estado FROM Permisos WHERE (idEmpleado = @idEmpleado)
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.PermisosDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.PermisosDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Permisos");
         }
         
@@ -30432,7 +30432,7 @@ SELECT idTipoEmpleado, descripcion, estado FROM TipoEmpleado WHERE (idTipoEmplea
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -30449,7 +30449,7 @@ SELECT idTipoEmpleado, descripcion, estado FROM TipoEmpleado WHERE (idTipoEmplea
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.TipoEmpleadoDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.TipoEmpleadoDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -30462,9 +30462,9 @@ SELECT idTipoEmpleado, descripcion, estado FROM TipoEmpleado WHERE (idTipoEmplea
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.TipoEmpleadoDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.TipoEmpleadoDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.TipoEmpleadoDataTable dataTable = new DbPruebasDataSet.TipoEmpleadoDataTable();
+            ClinicaPruebaDataSet.TipoEmpleadoDataTable dataTable = new ClinicaPruebaDataSet.TipoEmpleadoDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -30472,14 +30472,14 @@ SELECT idTipoEmpleado, descripcion, estado FROM TipoEmpleado WHERE (idTipoEmplea
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.TipoEmpleadoDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.TipoEmpleadoDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "TipoEmpleado");
         }
         
@@ -30811,7 +30811,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -30829,7 +30829,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.UsuarioDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.UsuarioDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -30842,9 +30842,9 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.UsuarioDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.UsuarioDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.UsuarioDataTable dataTable = new DbPruebasDataSet.UsuarioDataTable();
+            ClinicaPruebaDataSet.UsuarioDataTable dataTable = new ClinicaPruebaDataSet.UsuarioDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -30852,14 +30852,14 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet.UsuarioDataTable dataTable) {
+        public virtual int Update(ClinicaPruebaDataSet.UsuarioDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DbPruebasDataSet dataSet) {
+        public virtual int Update(ClinicaPruebaDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Usuario");
         }
         
@@ -31224,7 +31224,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -31244,7 +31244,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spAccesoSistemaDataTable dataTable, string prmUser, string prmPass) {
+        public virtual int Fill(ClinicaPruebaDataSet.spAccesoSistemaDataTable dataTable, string prmUser, string prmPass) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmUser == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -31269,7 +31269,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spAccesoSistemaDataTable GetData(string prmUser, string prmPass) {
+        public virtual ClinicaPruebaDataSet.spAccesoSistemaDataTable GetData(string prmUser, string prmPass) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmUser == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -31283,7 +31283,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[2].Value = ((string)(prmPass));
             }
-            DbPruebasDataSet.spAccesoSistemaDataTable dataTable = new DbPruebasDataSet.spAccesoSistemaDataTable();
+            ClinicaPruebaDataSet.spAccesoSistemaDataTable dataTable = new ClinicaPruebaDataSet.spAccesoSistemaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -31426,7 +31426,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -31446,7 +31446,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spAccesoSistemaUsuarioDataTable dataTable, string prmUser, string prmPass) {
+        public virtual int Fill(ClinicaPruebaDataSet.spAccesoSistemaUsuarioDataTable dataTable, string prmUser, string prmPass) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmUser == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -31471,7 +31471,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spAccesoSistemaUsuarioDataTable GetData(string prmUser, string prmPass) {
+        public virtual ClinicaPruebaDataSet.spAccesoSistemaUsuarioDataTable GetData(string prmUser, string prmPass) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmUser == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -31485,7 +31485,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[2].Value = ((string)(prmPass));
             }
-            DbPruebasDataSet.spAccesoSistemaUsuarioDataTable dataTable = new DbPruebasDataSet.spAccesoSistemaUsuarioDataTable();
+            ClinicaPruebaDataSet.spAccesoSistemaUsuarioDataTable dataTable = new ClinicaPruebaDataSet.spAccesoSistemaUsuarioDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -31626,7 +31626,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -31645,7 +31645,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spBuscarEmpleadoDataTable dataTable, string prmNroDocumento) {
+        public virtual int Fill(ClinicaPruebaDataSet.spBuscarEmpleadoDataTable dataTable, string prmNroDocumento) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmNroDocumento == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -31664,7 +31664,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spBuscarEmpleadoDataTable GetData(string prmNroDocumento) {
+        public virtual ClinicaPruebaDataSet.spBuscarEmpleadoDataTable GetData(string prmNroDocumento) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmNroDocumento == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -31672,7 +31672,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((string)(prmNroDocumento));
             }
-            DbPruebasDataSet.spBuscarEmpleadoDataTable dataTable = new DbPruebasDataSet.spBuscarEmpleadoDataTable();
+            ClinicaPruebaDataSet.spBuscarEmpleadoDataTable dataTable = new ClinicaPruebaDataSet.spBuscarEmpleadoDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -31813,7 +31813,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -31832,7 +31832,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spBuscarEnfermeraDataTable dataTable, string prmDni) {
+        public virtual int Fill(ClinicaPruebaDataSet.spBuscarEnfermeraDataTable dataTable, string prmDni) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmDni == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -31851,7 +31851,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spBuscarEnfermeraDataTable GetData(string prmDni) {
+        public virtual ClinicaPruebaDataSet.spBuscarEnfermeraDataTable GetData(string prmDni) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmDni == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -31859,7 +31859,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((string)(prmDni));
             }
-            DbPruebasDataSet.spBuscarEnfermeraDataTable dataTable = new DbPruebasDataSet.spBuscarEnfermeraDataTable();
+            ClinicaPruebaDataSet.spBuscarEnfermeraDataTable dataTable = new ClinicaPruebaDataSet.spBuscarEnfermeraDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -32001,7 +32001,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -32020,7 +32020,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spBuscarMedicoDataTable dataTable, string prmDni) {
+        public virtual int Fill(ClinicaPruebaDataSet.spBuscarMedicoDataTable dataTable, string prmDni) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmDni == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -32039,7 +32039,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spBuscarMedicoDataTable GetData(string prmDni) {
+        public virtual ClinicaPruebaDataSet.spBuscarMedicoDataTable GetData(string prmDni) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmDni == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -32047,7 +32047,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((string)(prmDni));
             }
-            DbPruebasDataSet.spBuscarMedicoDataTable dataTable = new DbPruebasDataSet.spBuscarMedicoDataTable();
+            ClinicaPruebaDataSet.spBuscarMedicoDataTable dataTable = new ClinicaPruebaDataSet.spBuscarMedicoDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -32188,7 +32188,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -32207,7 +32207,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spBuscarPacienteDNIDataTable dataTable, string prmDni) {
+        public virtual int Fill(ClinicaPruebaDataSet.spBuscarPacienteDNIDataTable dataTable, string prmDni) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmDni == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -32226,7 +32226,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spBuscarPacienteDNIDataTable GetData(string prmDni) {
+        public virtual ClinicaPruebaDataSet.spBuscarPacienteDNIDataTable GetData(string prmDni) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmDni == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -32234,7 +32234,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((string)(prmDni));
             }
-            DbPruebasDataSet.spBuscarPacienteDNIDataTable dataTable = new DbPruebasDataSet.spBuscarPacienteDNIDataTable();
+            ClinicaPruebaDataSet.spBuscarPacienteDNIDataTable dataTable = new ClinicaPruebaDataSet.spBuscarPacienteDNIDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -32374,7 +32374,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -32393,7 +32393,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spBuscarPacienteIdCitaDataTable dataTable, global::System.Nullable<int> prmIdCita) {
+        public virtual int Fill(ClinicaPruebaDataSet.spBuscarPacienteIdCitaDataTable dataTable, global::System.Nullable<int> prmIdCita) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdCita.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdCita.Value));
@@ -32412,7 +32412,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spBuscarPacienteIdCitaDataTable GetData(global::System.Nullable<int> prmIdCita) {
+        public virtual ClinicaPruebaDataSet.spBuscarPacienteIdCitaDataTable GetData(global::System.Nullable<int> prmIdCita) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdCita.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdCita.Value));
@@ -32420,7 +32420,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
-            DbPruebasDataSet.spBuscarPacienteIdCitaDataTable dataTable = new DbPruebasDataSet.spBuscarPacienteIdCitaDataTable();
+            ClinicaPruebaDataSet.spBuscarPacienteIdCitaDataTable dataTable = new ClinicaPruebaDataSet.spBuscarPacienteIdCitaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -32558,7 +32558,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -32577,7 +32577,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListaHorariosAtencionDataTable dataTable, global::System.Nullable<int> prmIdMedico) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListaHorariosAtencionDataTable dataTable, global::System.Nullable<int> prmIdMedico) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdMedico.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdMedico.Value));
@@ -32596,7 +32596,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListaHorariosAtencionDataTable GetData(global::System.Nullable<int> prmIdMedico) {
+        public virtual ClinicaPruebaDataSet.spListaHorariosAtencionDataTable GetData(global::System.Nullable<int> prmIdMedico) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdMedico.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdMedico.Value));
@@ -32604,7 +32604,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
-            DbPruebasDataSet.spListaHorariosAtencionDataTable dataTable = new DbPruebasDataSet.spListaHorariosAtencionDataTable();
+            ClinicaPruebaDataSet.spListaHorariosAtencionDataTable dataTable = new ClinicaPruebaDataSet.spListaHorariosAtencionDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -32742,7 +32742,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -32761,7 +32761,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListaHorariosAtencionEnfermeraDataTable dataTable, global::System.Nullable<int> prmIdEnfermera) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListaHorariosAtencionEnfermeraDataTable dataTable, global::System.Nullable<int> prmIdEnfermera) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEnfermera.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEnfermera.Value));
@@ -32780,7 +32780,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListaHorariosAtencionEnfermeraDataTable GetData(global::System.Nullable<int> prmIdEnfermera) {
+        public virtual ClinicaPruebaDataSet.spListaHorariosAtencionEnfermeraDataTable GetData(global::System.Nullable<int> prmIdEnfermera) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEnfermera.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEnfermera.Value));
@@ -32788,7 +32788,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
-            DbPruebasDataSet.spListaHorariosAtencionEnfermeraDataTable dataTable = new DbPruebasDataSet.spListaHorariosAtencionEnfermeraDataTable();
+            ClinicaPruebaDataSet.spListaHorariosAtencionEnfermeraDataTable dataTable = new ClinicaPruebaDataSet.spListaHorariosAtencionEnfermeraDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -32924,7 +32924,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -32942,7 +32942,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListaMenuPrincipalDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListaMenuPrincipalDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -32955,9 +32955,9 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListaMenuPrincipalDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.spListaMenuPrincipalDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.spListaMenuPrincipalDataTable dataTable = new DbPruebasDataSet.spListaMenuPrincipalDataTable();
+            ClinicaPruebaDataSet.spListaMenuPrincipalDataTable dataTable = new ClinicaPruebaDataSet.spListaMenuPrincipalDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -33104,7 +33104,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -33122,7 +33122,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarCitasDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarCitasDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -33135,9 +33135,9 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarCitasDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.spListarCitasDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.spListarCitasDataTable dataTable = new DbPruebasDataSet.spListarCitasDataTable();
+            ClinicaPruebaDataSet.spListarCitasDataTable dataTable = new ClinicaPruebaDataSet.spListarCitasDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -33284,7 +33284,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -33303,7 +33303,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarCitasDNIDataTable dataTable, string prmDNI) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarCitasDNIDataTable dataTable, string prmDNI) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmDNI == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -33322,7 +33322,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarCitasDNIDataTable GetData(string prmDNI) {
+        public virtual ClinicaPruebaDataSet.spListarCitasDNIDataTable GetData(string prmDNI) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmDNI == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -33330,7 +33330,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((string)(prmDNI));
             }
-            DbPruebasDataSet.spListarCitasDNIDataTable dataTable = new DbPruebasDataSet.spListarCitasDNIDataTable();
+            ClinicaPruebaDataSet.spListarCitasDNIDataTable dataTable = new ClinicaPruebaDataSet.spListarCitasDNIDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -33477,7 +33477,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -33496,7 +33496,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarCitasESPECIALIDADDataTable dataTable, string prmEspecialidad) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarCitasESPECIALIDADDataTable dataTable, string prmEspecialidad) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmEspecialidad == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -33515,7 +33515,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarCitasESPECIALIDADDataTable GetData(string prmEspecialidad) {
+        public virtual ClinicaPruebaDataSet.spListarCitasESPECIALIDADDataTable GetData(string prmEspecialidad) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmEspecialidad == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -33523,7 +33523,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((string)(prmEspecialidad));
             }
-            DbPruebasDataSet.spListarCitasESPECIALIDADDataTable dataTable = new DbPruebasDataSet.spListarCitasESPECIALIDADDataTable();
+            ClinicaPruebaDataSet.spListarCitasESPECIALIDADDataTable dataTable = new ClinicaPruebaDataSet.spListarCitasESPECIALIDADDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -33670,7 +33670,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -33689,7 +33689,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarCitasFECHADataTable dataTable, global::System.Nullable<global::System.DateTime> prmfecha) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarCitasFECHADataTable dataTable, global::System.Nullable<global::System.DateTime> prmfecha) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmfecha.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((System.DateTime)(prmfecha.Value));
@@ -33708,7 +33708,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarCitasFECHADataTable GetData(global::System.Nullable<global::System.DateTime> prmfecha) {
+        public virtual ClinicaPruebaDataSet.spListarCitasFECHADataTable GetData(global::System.Nullable<global::System.DateTime> prmfecha) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmfecha.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((System.DateTime)(prmfecha.Value));
@@ -33716,7 +33716,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
-            DbPruebasDataSet.spListarCitasFECHADataTable dataTable = new DbPruebasDataSet.spListarCitasFECHADataTable();
+            ClinicaPruebaDataSet.spListarCitasFECHADataTable dataTable = new ClinicaPruebaDataSet.spListarCitasFECHADataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -33856,7 +33856,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -33874,7 +33874,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarEnfermerasDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarEnfermerasDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -33887,9 +33887,9 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarEnfermerasDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.spListarEnfermerasDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.spListarEnfermerasDataTable dataTable = new DbPruebasDataSet.spListarEnfermerasDataTable();
+            ClinicaPruebaDataSet.spListarEnfermerasDataTable dataTable = new ClinicaPruebaDataSet.spListarEnfermerasDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -34025,7 +34025,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -34043,7 +34043,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarEspecialidadesDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarEspecialidadesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -34056,9 +34056,9 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarEspecialidadesDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.spListarEspecialidadesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.spListarEspecialidadesDataTable dataTable = new DbPruebasDataSet.spListarEspecialidadesDataTable();
+            ClinicaPruebaDataSet.spListarEspecialidadesDataTable dataTable = new ClinicaPruebaDataSet.spListarEspecialidadesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -34201,7 +34201,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -34220,7 +34220,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarHorariosAtencionDataTable dataTable, global::System.Nullable<int> prmIdEspecialidad) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarHorariosAtencionDataTable dataTable, global::System.Nullable<int> prmIdEspecialidad) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEspecialidad.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEspecialidad.Value));
@@ -34239,7 +34239,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarHorariosAtencionDataTable GetData(global::System.Nullable<int> prmIdEspecialidad) {
+        public virtual ClinicaPruebaDataSet.spListarHorariosAtencionDataTable GetData(global::System.Nullable<int> prmIdEspecialidad) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEspecialidad.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEspecialidad.Value));
@@ -34247,7 +34247,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
-            DbPruebasDataSet.spListarHorariosAtencionDataTable dataTable = new DbPruebasDataSet.spListarHorariosAtencionDataTable();
+            ClinicaPruebaDataSet.spListarHorariosAtencionDataTable dataTable = new ClinicaPruebaDataSet.spListarHorariosAtencionDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -34387,7 +34387,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -34407,7 +34407,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarHorariosAtencionPorFechaDataTable dataTable, global::System.Nullable<int> prmIdEspecialidad, global::System.Nullable<global::System.DateTime> prmFecha) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarHorariosAtencionPorFechaDataTable dataTable, global::System.Nullable<int> prmIdEspecialidad, global::System.Nullable<global::System.DateTime> prmFecha) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEspecialidad.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEspecialidad.Value));
@@ -34432,7 +34432,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarHorariosAtencionPorFechaDataTable GetData(global::System.Nullable<int> prmIdEspecialidad, global::System.Nullable<global::System.DateTime> prmFecha) {
+        public virtual ClinicaPruebaDataSet.spListarHorariosAtencionPorFechaDataTable GetData(global::System.Nullable<int> prmIdEspecialidad, global::System.Nullable<global::System.DateTime> prmFecha) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEspecialidad.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEspecialidad.Value));
@@ -34446,7 +34446,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
-            DbPruebasDataSet.spListarHorariosAtencionPorFechaDataTable dataTable = new DbPruebasDataSet.spListarHorariosAtencionPorFechaDataTable();
+            ClinicaPruebaDataSet.spListarHorariosAtencionPorFechaDataTable dataTable = new ClinicaPruebaDataSet.spListarHorariosAtencionPorFechaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -34586,7 +34586,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -34604,7 +34604,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarMedicosDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarMedicosDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -34617,9 +34617,9 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarMedicosDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.spListarMedicosDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.spListarMedicosDataTable dataTable = new DbPruebasDataSet.spListarMedicosDataTable();
+            ClinicaPruebaDataSet.spListarMedicosDataTable dataTable = new ClinicaPruebaDataSet.spListarMedicosDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -34760,7 +34760,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -34778,7 +34778,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarMenuDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarMenuDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -34791,9 +34791,9 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarMenuDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.spListarMenuDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.spListarMenuDataTable dataTable = new DbPruebasDataSet.spListarMenuDataTable();
+            ClinicaPruebaDataSet.spListarMenuDataTable dataTable = new ClinicaPruebaDataSet.spListarMenuDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -34935,7 +34935,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -34953,7 +34953,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarPacientesDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarPacientesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -34966,9 +34966,9 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarPacientesDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.spListarPacientesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.spListarPacientesDataTable dataTable = new DbPruebasDataSet.spListarPacientesDataTable();
+            ClinicaPruebaDataSet.spListarPacientesDataTable dataTable = new ClinicaPruebaDataSet.spListarPacientesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -35110,7 +35110,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -35128,7 +35128,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spListarUsuariosDataTable dataTable) {
+        public virtual int Fill(ClinicaPruebaDataSet.spListarUsuariosDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -35141,9 +35141,9 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spListarUsuariosDataTable GetData() {
+        public virtual ClinicaPruebaDataSet.spListarUsuariosDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DbPruebasDataSet.spListarUsuariosDataTable dataTable = new DbPruebasDataSet.spListarUsuariosDataTable();
+            ClinicaPruebaDataSet.spListarUsuariosDataTable dataTable = new ClinicaPruebaDataSet.spListarUsuariosDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -35285,7 +35285,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -35304,7 +35304,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spMenuPorEmpleadoDataTable dataTable, global::System.Nullable<int> prmIdEmpleado) {
+        public virtual int Fill(ClinicaPruebaDataSet.spMenuPorEmpleadoDataTable dataTable, global::System.Nullable<int> prmIdEmpleado) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEmpleado.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEmpleado.Value));
@@ -35323,7 +35323,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spMenuPorEmpleadoDataTable GetData(global::System.Nullable<int> prmIdEmpleado) {
+        public virtual ClinicaPruebaDataSet.spMenuPorEmpleadoDataTable GetData(global::System.Nullable<int> prmIdEmpleado) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEmpleado.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEmpleado.Value));
@@ -35331,7 +35331,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
             }
-            DbPruebasDataSet.spMenuPorEmpleadoDataTable dataTable = new DbPruebasDataSet.spMenuPorEmpleadoDataTable();
+            ClinicaPruebaDataSet.spMenuPorEmpleadoDataTable dataTable = new ClinicaPruebaDataSet.spMenuPorEmpleadoDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -35470,7 +35470,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -35491,7 +35491,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spRegistrarHorarioAtencionDataTable dataTable, global::System.Nullable<int> prmIdMedico, string prmHora, global::System.Nullable<global::System.DateTime> prmFecha) {
+        public virtual int Fill(ClinicaPruebaDataSet.spRegistrarHorarioAtencionDataTable dataTable, global::System.Nullable<int> prmIdMedico, string prmHora, global::System.Nullable<global::System.DateTime> prmFecha) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdMedico.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdMedico.Value));
@@ -35522,7 +35522,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spRegistrarHorarioAtencionDataTable GetData(global::System.Nullable<int> prmIdMedico, string prmHora, global::System.Nullable<global::System.DateTime> prmFecha) {
+        public virtual ClinicaPruebaDataSet.spRegistrarHorarioAtencionDataTable GetData(global::System.Nullable<int> prmIdMedico, string prmHora, global::System.Nullable<global::System.DateTime> prmFecha) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdMedico.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdMedico.Value));
@@ -35542,7 +35542,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
-            DbPruebasDataSet.spRegistrarHorarioAtencionDataTable dataTable = new DbPruebasDataSet.spRegistrarHorarioAtencionDataTable();
+            ClinicaPruebaDataSet.spRegistrarHorarioAtencionDataTable dataTable = new ClinicaPruebaDataSet.spRegistrarHorarioAtencionDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -35680,7 +35680,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString;
+            this._connection.ConnectionString = global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -35701,7 +35701,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DbPruebasDataSet.spRegistrarHorarioAtencionEnfermeraDataTable dataTable, global::System.Nullable<int> prmIdEnfermera, string prmTurno, global::System.Nullable<global::System.DateTime> prmFecha) {
+        public virtual int Fill(ClinicaPruebaDataSet.spRegistrarHorarioAtencionEnfermeraDataTable dataTable, global::System.Nullable<int> prmIdEnfermera, string prmTurno, global::System.Nullable<global::System.DateTime> prmFecha) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEnfermera.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEnfermera.Value));
@@ -35732,7 +35732,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DbPruebasDataSet.spRegistrarHorarioAtencionEnfermeraDataTable GetData(global::System.Nullable<int> prmIdEnfermera, string prmTurno, global::System.Nullable<global::System.DateTime> prmFecha) {
+        public virtual ClinicaPruebaDataSet.spRegistrarHorarioAtencionEnfermeraDataTable GetData(global::System.Nullable<int> prmIdEnfermera, string prmTurno, global::System.Nullable<global::System.DateTime> prmFecha) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((prmIdEnfermera.HasValue == true)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = ((int)(prmIdEnfermera.Value));
@@ -35752,7 +35752,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             else {
                 this.Adapter.SelectCommand.Parameters[3].Value = global::System.DBNull.Value;
             }
-            DbPruebasDataSet.spRegistrarHorarioAtencionEnfermeraDataTable dataTable = new DbPruebasDataSet.spRegistrarHorarioAtencionEnfermeraDataTable();
+            ClinicaPruebaDataSet.spRegistrarHorarioAtencionEnfermeraDataTable dataTable = new ClinicaPruebaDataSet.spRegistrarHorarioAtencionEnfermeraDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -35787,7 +35787,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         private void InitCommandCollection() {
             this._commandCollection = new global::System.Data.IDbCommand[24];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandText = "dbo.spActualizaMenu";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35798,28 +35798,28 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIsSubMenu", global::System.Data.SqlDbType.Bit, 1, global::System.Data.ParameterDirection.Input, 1, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[0])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmEstado", global::System.Data.SqlDbType.Bit, 1, global::System.Data.ParameterDirection.Input, 1, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).CommandText = "dbo.spActualizarDatosEnfermera";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdEnfermera", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[1])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmDocumento", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[2] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).CommandText = "dbo.spActualizarDatosMedico";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdMedico", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[2])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmDocumento", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[3] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[3])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[3])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[3])).CommandText = "dbo.spActualizarDatosPaciente";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[3])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[3])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[3])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdPaciente", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[3])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmDireccion", global::System.Data.SqlDbType.VarChar, 300, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[4] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[4])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[4])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[4])).CommandText = "dbo.spActualizarDatosUsuario";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[4])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[4])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35828,14 +35828,14 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[4])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmClave", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[4])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmTipUser", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[5] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[5])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[5])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[5])).CommandText = "dbo.spActualizarEstadoCita";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[5])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[5])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[5])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdCita", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[5])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmEstado", global::System.Data.SqlDbType.VarChar, 1, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[6] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[6])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[6])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[6])).CommandText = "dbo.spActualizarHorarioAtencion";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[6])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[6])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35844,62 +35844,62 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[6])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmFecha", global::System.Data.SqlDbType.DateTime, 8, global::System.Data.ParameterDirection.Input, 23, 3, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[6])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmHora", global::System.Data.SqlDbType.VarChar, 5, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[7] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[7])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[7])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[7])).CommandText = "dbo.spActualizarHorarioAtencionEstado";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[7])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[7])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[7])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdHorarioAtencion", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[8] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[8])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[8])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[8])).CommandText = "dbo.spEliminarEnfermera";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[8])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[8])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[8])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdEnfermera", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[9] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[9])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[9])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[9])).CommandText = "dbo.spEliminarHorarioAtencion";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[9])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[9])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[9])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdHorarioAtencion", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[10] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[10])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[10])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[10])).CommandText = "dbo.spEliminarHorarioAtencionEnfermera";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[10])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[10])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[10])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdHorarioAtencion", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[11] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[11])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[11])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[11])).CommandText = "dbo.spEliminarMedico";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[11])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[11])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[11])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdMedico", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[12] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[12])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[12])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[12])).CommandText = "dbo.spEliminarMenu";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[12])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[12])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[12])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdMenu", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[13] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[13])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[13])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[13])).CommandText = "dbo.spEliminarPaciente";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[13])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[13])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[13])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdPaciente", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[14] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[14])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[14])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[14])).CommandText = "dbo.spEliminarUsuario";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[14])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[14])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[14])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdUsuario", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[15] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[15])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[15])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[15])).CommandText = "dbo.spListarMenuPermisos";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[15])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[15])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[15])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdEmpleado", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[15])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmOption", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[16] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[16])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[16])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[16])).CommandText = "dbo.spRegistrarCita";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[16])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[16])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35908,7 +35908,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[16])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@fechaReserva", global::System.Data.SqlDbType.DateTime, 8, global::System.Data.ParameterDirection.Input, 23, 3, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[16])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@hora", global::System.Data.SqlDbType.VarChar, 5, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[17] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[17])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[17])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[17])).CommandText = "dbo.spRegistrarDiagnostico";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[17])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[17])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35916,7 +35916,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[17])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmObservacion", global::System.Data.SqlDbType.VarChar, 500, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[17])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmDiagnostico", global::System.Data.SqlDbType.VarChar, 500, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[18] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[18])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[18])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[18])).CommandText = "dbo.spRegistrarEliminarPermiso";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[18])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[18])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35924,7 +35924,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[18])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmIdEmpleado", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[18])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmOpcion", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[19] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[19])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[19])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[19])).CommandText = "dbo.spRegistrarEnfermera";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[19])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[19])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35936,7 +35936,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[19])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmTipoEnfermera", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[19])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmEstado", global::System.Data.SqlDbType.Bit, 1, global::System.Data.ParameterDirection.Input, 1, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[20] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[20])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[20])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[20])).CommandText = "dbo.spRegistrarMedico";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[20])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[20])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35948,7 +35948,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[20])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmNroDoc", global::System.Data.SqlDbType.VarChar, 8, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[20])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmEstado", global::System.Data.SqlDbType.Bit, 1, global::System.Data.ParameterDirection.Input, 1, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[21] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[21])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[21])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[21])).CommandText = "dbo.spRegistrarMenu";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[21])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[21])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35957,7 +35957,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[21])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmUrl", global::System.Data.SqlDbType.VarChar, 200, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[21])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmMenuParent", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[22] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[22])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[22])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[22])).CommandText = "dbo.spRegistrarPaciente";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[22])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[22])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -35971,7 +35971,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[22])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmTelefono", global::System.Data.SqlDbType.VarChar, 20, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[22])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@prmEstado", global::System.Data.SqlDbType.Bit, 1, global::System.Data.ParameterDirection.Input, 1, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[23] = new global::System.Data.SqlClient.SqlCommand();
-            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[23])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.DbPruebasConnectionString);
+            ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[23])).Connection = new global::System.Data.SqlClient.SqlConnection(global::CapaAccesoDatos.Properties.Settings.Default.ClinicaPruebaConnectionString);
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[23])).CommandText = "dbo.spRegistrarUsuario";
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[23])).CommandType = global::System.Data.CommandType.StoredProcedure;
             ((global::System.Data.SqlClient.SqlCommand)(this._commandCollection[23])).Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -37391,7 +37391,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(DbPruebasDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(ClinicaPruebaDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._tipoEmpleadoTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.TipoEmpleado.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -37545,7 +37545,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(DbPruebasDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(ClinicaPruebaDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._tipoEmpleadoTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.TipoEmpleado.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -37683,7 +37683,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(DbPruebasDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(ClinicaPruebaDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._diagnosticoTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.Diagnostico.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -37845,7 +37845,7 @@ SELECT idUsuario, usuario, clave, estado, idEmpleado, imagen, tipoUser FROM Usua
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(DbPruebasDataSet dataSet) {
+        public virtual int UpdateAll(ClinicaPruebaDataSet dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
