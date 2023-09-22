@@ -45,3 +45,13 @@ C:\Users\fabio\source\repos\20230921KatherineQuijano\CapaAccesoDatos\obj\Debug\C
 C:\Users\fabio\source\repos\20230921KatherineQuijano\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
 C:\Users\fabio\source\repos\20230921KatherineQuijano\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\fabio\source\repos\20230921KatherineQuijano\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll.config
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\bin\Debug\CapaEntidades.dll
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb

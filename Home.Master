@@ -6,7 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-language" content="es" />
-    <title>Clinica Prueba Pentàgono</title>
+    <title>Clinica_RAZETH</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -117,7 +117,7 @@
 <body class="skin-blue">
     <header class="header">
         <!-- BEGIN CABECERA -->
-        <a href="#" class="logo">CLINICA PRUEBA</a>
+        <a href="#" class="logo">PENTÁGONO</a>
         <nav class="navbar navbar-static-top" role="navigation">
             <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
                 <span class="sr-only">Toggle Navigation</span>
@@ -325,7 +325,7 @@
                 <div class="col-md-4">
                 </div>
                 <div class="col-md-4">
-                    <p class="copy">Todos los derechos Reservados &copy 2023 | FabiolaQuijano &reg </p>
+                    <p class="copy">Todos los derechos Reservados &copy 2020 | Arcangel RS &reg </p>
                 </div>
                 <div class="col-md-4 ">
                 </div>

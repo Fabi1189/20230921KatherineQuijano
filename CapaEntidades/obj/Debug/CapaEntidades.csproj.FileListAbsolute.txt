@@ -16,3 +16,9 @@ C:\Users\fabio\Downloads\Project_Web_Clinica-master\PaginaWebClinina\CapaEntidad
 C:\Users\fabio\Downloads\Project_Web_Clinica-master\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
 C:\Users\fabio\Downloads\Project_Web_Clinica-master\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.dll
 C:\Users\fabio\Downloads\Project_Web_Clinica-master\PaginaWebClinina\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\fabio\source\repos\Fabi1189\20230921KatherineQuijano\CapaEntidades\obj\Debug\CapaEntidades.pdb
