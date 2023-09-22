@@ -6,7 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-language" content="es" />
-    <title>Clinica_RAZETH</title>
+    <title>Prueba Pentágono</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -154,6 +154,7 @@
                         </p>
                     </div>
                 </div>
+                
                 <%--<ul class="sidebar-menu">
                     <li class="active">
                         <a href="PanelGeneral.aspx">
@@ -325,7 +326,7 @@
                 <div class="col-md-4">
                 </div>
                 <div class="col-md-4">
-                    <p class="copy">Todos los derechos Reservados &copy 2020 | Arcangel RS &reg </p>
+                    <p class="copy">Todos los derechos Reservados &copy 2023 | Fabiola Quijano &reg </p>
                 </div>
                 <div class="col-md-4 ">
                 </div>
@@ -335,5 +336,5 @@
     </asp:ContentPlaceHolder>
 </body>
 
-
+    <%--//fin de codigo--%>
 </html>
